@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_image"
+        android:title="image"
+        app:actionProviderClass="com.example.tmnt.bargemenu.BargeActionProvider"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/menu_setting"
+        app:showAsAction="always"
+        android:title="设置">
+        <menu>
+            <item
+                app:showAsAction="always|withText"
+                android:icon="@mipmap/ic_launcher"
+                android:title="更换主题"/>
+            <item
+                app:showAsAction="always|withText"
+                android:icon="@mipmap/ic_launcher"
+                android:title="系统设置"/>
+            <item
+                app:showAsAction="always|withText"
+                android:icon="@mipmap/ic_launcher"
+                android:title="更换主题"/>
+            <item
+                app:showAsAction="always|withText"
+                android:icon="@mipmap/ic_launcher"
+                android:title="系统设置"/>
+            <item
+                app:showAsAction="always|withText"
+                android:icon="@mipmap/ic_launcher"
+                android:title="更换主题"/>
+            <item
+                app:showAsAction="always|withText"
+                android:icon="@mipmap/ic_launcher"
+                android:title="系统设置"/>
+            <item
+                app:showAsAction="always|withText"
+                android:icon="@mipmap/ic_launcher"
+                android:title="更换主题"/>
+            <item
+                app:showAsAction="always|withText"
+                android:icon="@mipmap/ic_launcher"
+                android:title="系统设置"/>
+        </menu>
+    </item>
+
+</menu>
